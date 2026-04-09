@@ -143,6 +143,386 @@ export const regions: Region[] = [
     ],
   },
   {
+    slug: "hips-groin",
+    label: "Hips & Groin",
+    tagline: "The center of power — and the source of a surprising amount of pain.",
+    description:
+      "Your hips are ball-and-socket joints connecting your legs to your pelvis. They're built for both stability and a wide range of motion, making them central to almost every movement you do — walking, sitting, running, climbing stairs. When hip muscles are tight or weak, the effects ripple out to the lower back, knees, and even the feet.",
+    structures: [
+      {
+        name: "Psoas Major",
+        type: "muscle",
+        plain:
+          "A deep muscle running from the front of your lumbar spine down through the pelvis to the top of your thigh bone. It's your primary hip flexor — the muscle that lifts your knee toward your chest and keeps you upright when you walk.",
+        relevance:
+          "Sitting all day shortens the psoas. A tight psoas tilts the pelvis forward, creating an exaggerated lower back arch and chronic low back pain. It's one of the most overlooked contributors to back pain.",
+        feel:
+          "Lie on your back and pull one knee toward your chest. The deep pulling sensation at the front of the opposite hip is your psoas stretching.",
+        commonIssues: "Hip flexor tightness, lower back pain, anterior pelvic tilt — extremely common in people who sit for long periods.",
+      },
+      {
+        name: "Gluteus Medius",
+        type: "muscle",
+        plain:
+          "A fan-shaped muscle on the outer hip, running from the top of the pelvis to the side of the femur. It stabilizes the pelvis every time you take a step — preventing your hip from dropping to one side as your foot lifts off the ground.",
+        relevance:
+          "Weakness here causes the pelvis to drop on the opposite side when walking (Trendelenburg gait). This puts extra stress on the lower back, IT band, and knees. Many knee and hip injuries trace back to a weak glute med.",
+        feel:
+          "Stand on one leg. The side of the hip that's working to keep you level is the glute medius. If you feel yourself swaying, it's telling you something.",
+        commonIssues: "Hip drop, IT band syndrome, knee pain, lower back pain — especially common in runners.",
+      },
+      {
+        name: "Hip Labrum",
+        type: "other",
+        plain:
+          "A ring of cartilage lining the socket of the hip joint, like a rubber seal. It deepens the socket and helps distribute pressure evenly across the joint, keeping the head of the femur seated properly.",
+        relevance:
+          "Labral tears cause a deep, hard-to-pinpoint ache in the groin or hip that worsens with prolonged sitting, twisting, or certain movements. They're often misdiagnosed as a groin strain.",
+        feel:
+          "You can't feel the labrum directly. But a sharp catch, click, or locking sensation deep in the hip during movement may indicate labral involvement.",
+        commonIssues: "Hip labral tears — common in athletes and people with hip impingement (FAI).",
+      },
+      {
+        name: "Adductors",
+        type: "muscle",
+        plain:
+          "A group of five muscles running along the inner thigh from the pelvis to the femur. They pull the leg toward the midline of the body and help stabilize the hip and pelvis during movement.",
+        relevance:
+          "Adductor strains are the classic 'groin pull' — a sharp pain on the inner thigh from sudden direction changes or overuse. Tight adductors also restrict hip mobility and affect how you walk and run.",
+        feel:
+          "Sit and place your hands on the inner thighs. Press your knees together against resistance. The muscles contracting along your inner thigh are your adductors.",
+        commonIssues: "Groin strains, adductor tendinopathy — common in soccer players, hockey players, and anyone who does lateral movement.",
+      },
+      {
+        name: "Piriformis",
+        type: "muscle",
+        plain:
+          "A small, deep muscle running from the sacrum (base of the spine) to the outer femur. Its job is to rotate the hip outward. The sciatic nerve runs directly beneath it — and in some people, through it.",
+        relevance:
+          "When the piriformis tightens, it can compress the sciatic nerve, causing buttock pain that radiates down the leg — a condition called piriformis syndrome, often confused with disc-related sciatica.",
+        feel:
+          "Sit and cross one ankle over the opposite knee (figure-four position). The deep ache in the back of the hip is the piriformis stretching.",
+        commonIssues: "Piriformis syndrome, sciatic nerve compression, buttock pain — common in runners and people who sit for long periods.",
+      },
+    ],
+  },
+  {
+    slug: "upper-arm",
+    label: "Upper Arm",
+    tagline: "More than a bicep flex — the full picture.",
+    description:
+      "The upper arm runs from the shoulder joint to the elbow, housing the muscles responsible for bending and straightening the arm, and rotating the forearm. The humerus (upper arm bone) is the anchor for several major muscle groups that control both the shoulder and the elbow.",
+    structures: [
+      {
+        name: "Biceps Brachii",
+        type: "muscle",
+        plain:
+          "The two-headed muscle on the front of the upper arm. Despite its fame, its main job isn't elbow flexion — it's supination (rotating the forearm so the palm faces up). It also assists in shoulder flexion and elbow bending.",
+        relevance:
+          "Biceps issues often manifest at the tendons (where the muscle attaches at the shoulder and elbow) rather than the muscle belly itself. The long head tendon at the shoulder is particularly prone to irritation.",
+        feel:
+          "Hold your arm out and turn your palm up, then down. The movement is driven by the biceps (palm up) and the pronator (palm down).",
+        commonIssues: "Biceps tendinitis, distal biceps tendon rupture (the 'pop' at the elbow), SLAP tears at the shoulder attachment.",
+      },
+      {
+        name: "Triceps Brachii",
+        type: "muscle",
+        plain:
+          "The three-headed muscle on the back of the upper arm. It's responsible for straightening (extending) the elbow — the opposite of what the biceps does. The long head also contributes to shoulder extension.",
+        relevance:
+          "The triceps is the most underworked muscle in people who do a lot of pressing exercises. Weakness contributes to elbow instability and limits pushing strength. Triceps tendinopathy at the elbow is common in overhead athletes.",
+        feel:
+          "Straighten your arm against resistance — push down on a table while sitting. The hardening on the back of your upper arm is your triceps.",
+        commonIssues: "Triceps tendinopathy, triceps rupture (rare, usually from heavy lifting), olecranon bursitis at the elbow.",
+      },
+      {
+        name: "Humerus",
+        type: "bone",
+        plain:
+          "The single long bone of the upper arm, running from the ball of the shoulder joint to the elbow. It serves as the attachment point for most of the muscles of the arm and shoulder.",
+        relevance:
+          "Humeral fractures are common in falls, particularly in older adults. The radial nerve runs in a groove along the shaft of the humerus, making mid-shaft fractures particularly risky for nerve injury.",
+        feel:
+          "You can feel the outer surface of the humerus along the outer side of your upper arm. The rounded bump at the top is the greater tubercle, where the rotator cuff attaches.",
+        commonIssues: "Humeral shaft fractures, greater tubercle fractures (often with shoulder dislocations).",
+      },
+      {
+        name: "Brachialis",
+        type: "muscle",
+        plain:
+          "A flat muscle lying beneath the biceps, running from the lower front of the humerus to the ulna (forearm bone). It's actually the strongest elbow flexor — stronger than the biceps — but gets almost no attention.",
+        relevance:
+          "Because it lies under the biceps, brachialis tightness can compress the musculocutaneous nerve, causing a subtle ache in the outer forearm. It's a common culprit in unexplained elbow and forearm discomfort.",
+        feel:
+          "Bend your elbow halfway and press your fingers into the crease on the outer side. The firmness you feel deep to the biceps is the brachialis.",
+      },
+    ],
+  },
+  {
+    slug: "forearm",
+    label: "Forearm",
+    tagline: "19 muscles controlling every grip and rotation your hands make.",
+    description:
+      "The forearm contains 19 muscles organized into flexor (palm side) and extensor (back of arm) groups. These muscles control wrist movement, finger movement, and forearm rotation. They're incredibly active in everyday tasks — typing, cooking, carrying, writing — which is why forearm fatigue and overuse injuries are so common.",
+    structures: [
+      {
+        name: "Flexor Group",
+        type: "muscle",
+        plain:
+          "A group of muscles on the palm side of the forearm that flex the wrist and fingers (curl them inward). They originate at the medial epicondyle — the bony bump on the inside of the elbow.",
+        relevance:
+          "Overuse of the flexor group causes medial epicondylitis (golfer's elbow) — pain on the inner elbow that worsens with gripping, lifting, or wrist flexion. Common in anyone who types, plays racket sports, or does repeated gripping.",
+        feel:
+          "Turn your palm up and make a fist. The muscles that harden along the inner forearm are your flexors.",
+        commonIssues: "Golfer's elbow (medial epicondylitis), flexor tendinopathy, carpal tunnel syndrome (the tendons pass through the carpal tunnel at the wrist).",
+      },
+      {
+        name: "Extensor Group",
+        type: "muscle",
+        plain:
+          "A group of muscles on the back of the forearm that extend the wrist and fingers (pull them back). They originate at the lateral epicondyle — the bony bump on the outside of the elbow.",
+        relevance:
+          "Overuse of the extensor group causes lateral epicondylitis (tennis elbow) — one of the most common overuse injuries. Pain on the outer elbow that radiates down the forearm, made worse by gripping or lifting with the palm down.",
+        feel:
+          "Flip your hand over, palm down, and extend your wrist back. The muscles hardening on the back of the forearm are your extensors.",
+        commonIssues: "Tennis elbow (lateral epicondylitis) — affects up to 3% of adults. Common in computer users, not just tennis players.",
+      },
+      {
+        name: "Pronator & Supinator",
+        type: "muscle",
+        plain:
+          "Two muscles that rotate the forearm: the pronator teres turns the palm down; the supinator turns it up. This rotation — called pronation and supination — is what lets you turn a doorknob or use a screwdriver.",
+        relevance:
+          "Pronator teres syndrome can compress the median nerve as it passes through, causing forearm aching and hand numbness — sometimes misdiagnosed as carpal tunnel syndrome.",
+        feel:
+          "Hold a pen and rotate it back and forth. The muscles working across the top and front of your forearm driving that motion are the pronator and supinator.",
+      },
+      {
+        name: "Radius & Ulna",
+        type: "bone",
+        plain:
+          "Two parallel bones running the length of the forearm. The radius is on the thumb side; the ulna is on the pinky side. They cross over each other when you rotate the forearm — you can watch them shift under the skin.",
+        relevance:
+          "Both bones are common fracture sites. A fall on an outstretched hand often breaks the radius near the wrist (Colles' fracture). The ulna's olecranon forms the point of the elbow and is prone to fracture in direct impacts.",
+        feel:
+          "Run your finger along the back of your forearm from elbow to wrist — the sharp bony ridge you feel on the pinky side is the ulna. The radius is harder to feel under muscle on the thumb side.",
+        commonIssues: "Colles' fracture (wrist end of radius), ulnar styloid fractures, TFCC tears at the wrist joint.",
+      },
+    ],
+  },
+  {
+    slug: "wrist-hand",
+    label: "Wrist & Hand",
+    tagline: "27 bones. More than the entire spine. And you use them constantly.",
+    description:
+      "The wrist and hand contain 27 bones — 8 carpal bones in the wrist, 5 metacarpals in the palm, and 14 phalanges in the fingers. This complexity gives the hand extraordinary dexterity, but it also means there's a lot that can go wrong. Most hand problems come from repetitive strain rather than acute injury.",
+    structures: [
+      {
+        name: "Carpal Tunnel",
+        type: "other",
+        plain:
+          "A narrow passageway at the base of the palm formed by the carpal bones and a tough ligament (the flexor retinaculum). Nine tendons and the median nerve pass through this tunnel to reach the hand.",
+        relevance:
+          "When the tunnel becomes narrowed — from inflammation, repetitive use, fluid retention, or wrist position — the median nerve gets compressed. This causes carpal tunnel syndrome: numbness and tingling in the thumb, index, middle, and part of the ring finger, especially at night.",
+        feel:
+          "Tap the center of your inner wrist with a finger. Tingling into the thumb and first two fingers (Tinel's sign) suggests median nerve sensitivity.",
+        commonIssues: "Carpal tunnel syndrome — affects up to 10% of adults. More common in people who type, use vibrating tools, or are pregnant.",
+      },
+      {
+        name: "Flexor Tendons",
+        type: "tendon",
+        plain:
+          "Long tendons running from the forearm muscles through the carpal tunnel and along the palm to attach to each finger. They're what actually bend your fingers — the muscles are in the forearm, not the hand.",
+        relevance:
+          "Trigger finger happens when a flexor tendon's sheath thickens and the tendon catches as it glides through — causing the finger to lock or snap. Extremely common in people who do repetitive gripping.",
+        feel:
+          "Slowly curl your fingers one at a time. The gliding movement you can feel in your palm is the flexor tendons sliding through their sheaths.",
+        commonIssues: "Trigger finger, flexor tendon lacerations, de Quervain's tenosynovitis (thumb side).",
+      },
+      {
+        name: "Scaphoid",
+        type: "bone",
+        plain:
+          "The most important of the 8 carpal bones — a small, canoe-shaped bone on the thumb side of the wrist. It's the bridge between the two rows of carpal bones and handles most of the load transmitted from the hand to the forearm.",
+        relevance:
+          "The scaphoid has notoriously poor blood supply. Fractures (often from falling on an outstretched hand) can fail to heal properly if missed or untreated, leading to avascular necrosis and long-term wrist problems.",
+        feel:
+          "Make a hitchhiker's thumbs-up. The hollow that forms at the base of your thumb (the anatomical snuffbox) sits directly over the scaphoid. Pain here after a wrist injury warrants imaging even if X-rays look normal.",
+        commonIssues: "Scaphoid fractures — frequently missed because initial X-rays can appear normal. High index of suspicion required.",
+      },
+      {
+        name: "Intrinsic Hand Muscles",
+        type: "muscle",
+        plain:
+          "Small muscles that originate and insert entirely within the hand — unlike the forearm muscles that work the fingers from a distance. They control fine motor movements: spreading and closing the fingers, pinching, and the precise adjustments needed for writing or playing an instrument.",
+        relevance:
+          "These muscles atrophy quickly with disuse or nerve damage. The thenar muscles (the mound at the base of the thumb) are supplied by the median nerve — wasting here is a sign of advanced carpal tunnel syndrome.",
+        feel:
+          "Spread your fingers as wide as possible, then bring them back together. The muscles doing that work — both in the palm and between the fingers — are your intrinsic hand muscles.",
+        commonIssues: "Thenar wasting (median nerve damage), hypothenar wasting (ulnar nerve damage), Dupuytren's contracture (thickening of palmar fascia).",
+      },
+    ],
+  },
+  {
+    slug: "thigh",
+    label: "Thigh",
+    tagline: "The powerhouse of the lower body — and where a lot goes wrong.",
+    description:
+      "The thigh runs from the hip joint to the knee, containing some of the largest and most powerful muscles in the body. These muscles drive walking, running, squatting, and climbing. The femur — the thigh bone — is the longest and strongest bone in the body, but the soft tissues around it are among the most commonly injured in sport and daily life.",
+    structures: [
+      {
+        name: "Quadriceps",
+        type: "muscle",
+        plain:
+          "Four muscles on the front of the thigh that together straighten the knee. The largest, rectus femoris, also crosses the hip and helps flex it. The quads are the primary muscles used when you stand up from a chair, walk downstairs, or land from a jump.",
+        relevance:
+          "Quad weakness is one of the biggest risk factors for knee pain, ACL injury, and patellofemoral syndrome. Strong quads absorb the impact forces that would otherwise go straight into the knee joint.",
+        feel:
+          "Sit and straighten your leg. The entire front of your thigh that hardens is your quadriceps — all four heads working together.",
+        commonIssues: "Quad strain, patellofemoral pain syndrome, patellar tendinopathy (jumper's knee), quad tendon rupture (usually in older adults).",
+      },
+      {
+        name: "Hamstrings",
+        type: "muscle",
+        plain:
+          "Three muscles on the back of the thigh — biceps femoris, semitendinosus, and semimembranosus. They bend the knee and extend the hip (push the leg backward). They're essential for running, jumping, and all hip-hinging movements.",
+        relevance:
+          "Hamstring strains are the most common muscle injury in sport. They often occur when the muscle is simultaneously lengthening and contracting at high speed — typically during sprinting. Recurrence is common if not fully rehabilitated.",
+        feel:
+          "Sit and press your heel into the floor as if trying to drag it toward you. The muscles that engage on the back of your thigh are your hamstrings.",
+        commonIssues: "Hamstring strains (grades 1–3), proximal hamstring tendinopathy (sitting pain deep in the buttock), hamstring avulsion fractures.",
+      },
+      {
+        name: "Iliotibial Band (IT Band)",
+        type: "other",
+        plain:
+          "A thick band of connective tissue running along the outer thigh from the pelvis to just below the knee. It's not a muscle — it doesn't contract. It's a stabilizing structure that keeps the outer knee from collapsing inward during movement.",
+        relevance:
+          "IT band syndrome is one of the most common running injuries. The band repeatedly rubs over the outer femoral condyle as the knee bends and straightens, causing burning pain on the outer knee. Tightness, overtraining, and hip weakness all contribute.",
+        feel:
+          "Press your fingers firmly into the outer middle of your thigh and walk a few steps. The firm cord running down the outer side is the IT band.",
+        commonIssues: "IT band syndrome — especially in runners who increase mileage too quickly. Often accompanied by weak hip abductors.",
+      },
+      {
+        name: "Femur",
+        type: "bone",
+        plain:
+          "The thigh bone — the longest and strongest bone in the body. It runs from the hip socket to the knee joint, where it articulates with the tibia and patella. Its neck (at the hip end) is angled to optimize weight distribution.",
+        relevance:
+          "Femoral neck fractures are serious injuries in older adults with osteoporosis, often from low-energy falls. Stress fractures of the femoral shaft occur in runners and military recruits from repetitive loading without adequate recovery.",
+        feel:
+          "You can feel the lateral (outer) surface of the femur through the IT band along the outer thigh. The greater trochanter — the bony bump at the top of the outer thigh — is the femur's widest point.",
+        commonIssues: "Femoral neck fractures, stress fractures, femoral shaft fractures (high-energy trauma).",
+      },
+    ],
+  },
+  {
+    slug: "lower-leg",
+    label: "Lower Leg",
+    tagline: "From knee to ankle — what keeps you upright and moving forward.",
+    description:
+      "The lower leg runs from the knee to the ankle and is built for endurance. It contains the muscles responsible for pushing off the ground, absorbing landing impact, and controlling the ankle. The tibia bears nearly all of your body weight; the fibula provides stability and attachment for muscles. Lower leg issues are extremely common in runners and anyone who stands for long periods.",
+    structures: [
+      {
+        name: "Gastrocnemius",
+        type: "muscle",
+        plain:
+          "The large, two-headed calf muscle visible on the back of the lower leg. It crosses both the knee and the ankle, contributing to both knee flexion and ankle plantarflexion (pointing the foot down). It's a fast-twitch muscle — built for power, not endurance.",
+        relevance:
+          "The gastrocnemius is the muscle that cramps at night, tears in middle-aged recreational athletes ('tennis leg'), and tightens with prolonged heel use. It's also part of the Achilles tendon complex.",
+        feel:
+          "Stand and rise onto your tiptoes. The rounded muscle that bulges on the back of the lower leg is your gastrocnemius.",
+        commonIssues: "Calf strains, night cramps, deep vein thrombosis (calf pain + swelling warrants urgent evaluation).",
+      },
+      {
+        name: "Soleus",
+        type: "muscle",
+        plain:
+          "A flat, deeper calf muscle beneath the gastrocnemius. Unlike the gastrocnemius, it only crosses the ankle — not the knee. It's a slow-twitch endurance muscle, essential for standing and sustained walking.",
+        relevance:
+          "The soleus is the primary driver of ankle plantarflexion during walking at normal speed. Soleus strains are often deeper and slower to heal than gastrocnemius strains. Soleus tightness contributes to Achilles tendon problems and plantar fasciitis.",
+        feel:
+          "Bend your knee 90 degrees and rise onto your tiptoes. With the knee bent, the gastrocnemius is slack — so the muscle working now is primarily the soleus.",
+        commonIssues: "Soleus strains, Achilles tendinopathy, plantar fasciitis (often linked to tight soleus).",
+      },
+      {
+        name: "Tibialis Anterior",
+        type: "muscle",
+        plain:
+          "A muscle on the front of the lower leg that runs from the outer tibia to the inside of the foot. It dorsiflexes the ankle (pulls the foot up toward the shin) and inverts the foot (turns the sole inward).",
+        relevance:
+          "Shin splints (medial tibial stress syndrome) involve pain along the inner tibia, often from overuse of the tibialis anterior and related muscles. Weakness here causes foot drop — inability to lift the foot — which creates a distinctive slapping gait.",
+        feel:
+          "Pull your foot up toward your shin. The muscle that pops up on the outer front of your lower leg is the tibialis anterior.",
+        commonIssues: "Shin splints, anterior compartment syndrome, tibialis anterior tendinopathy.",
+      },
+      {
+        name: "Tibia",
+        type: "bone",
+        plain:
+          "The larger of the two lower leg bones — the shin bone. It's the primary weight-bearing bone and forms the main part of the knee joint above and the ankle joint below. You can feel its entire front surface under the skin.",
+        relevance:
+          "The tibia is one of the most common sites for stress fractures in runners, particularly the posteromedial (inner back) surface. A stress fracture feels like a localized, point-specific pain that worsens with activity and improves with rest — different from the diffuse ache of shin splints.",
+        feel:
+          "Run your finger down the front of your lower leg. The flat, hard surface from just below the knee to the ankle is the anterior tibia — no muscle covering it.",
+        commonIssues: "Tibial stress fractures, tibial shaft fractures (high-energy), shin splints.",
+      },
+    ],
+  },
+  {
+    slug: "ankle-foot",
+    label: "Ankle & Foot",
+    tagline: "26 bones absorbing every step, every landing, every mile.",
+    description:
+      "The foot and ankle form the foundation of the entire body. With 26 bones, 33 joints, and over 100 muscles, tendons, and ligaments, this complex structure absorbs shock, adapts to uneven ground, and propels you forward with every step. Most foot problems are biomechanical — the result of the foot compensating for issues elsewhere in the chain.",
+    structures: [
+      {
+        name: "Achilles Tendon",
+        type: "tendon",
+        plain:
+          "The thickest and strongest tendon in the body, connecting the calf muscles (gastrocnemius and soleus) to the heel bone (calcaneus). It transmits the enormous forces generated by the calf to propel the body forward with every step.",
+        relevance:
+          "The Achilles bears up to 8 times your body weight when running. Tendinopathy develops from repetitive overload — typically morning stiffness and pain 2–6 cm above the heel that warms up with movement. Rupture (a sharp 'pop' felt like being kicked) requires urgent care.",
+        feel:
+          "Pinch the cord at the back of your ankle above the heel. If it's tender to even light pressure, your Achilles may be irritated.",
+        commonIssues: "Achilles tendinopathy, Achilles rupture — most common in men aged 30–50 who play recreational sports.",
+      },
+      {
+        name: "Plantar Fascia",
+        type: "other",
+        plain:
+          "A thick band of connective tissue on the sole of the foot, running from the heel bone to the base of the toes. It acts like a bowstring — maintaining the arch of the foot and absorbing impact as the foot hits the ground.",
+        relevance:
+          "Plantar fasciitis causes stabbing heel pain that's worst with the first steps in the morning or after sitting. The fascia gets micro-tears where it attaches to the heel, and the pain is from the healing process being constantly disrupted.",
+        feel:
+          "Flex your foot up (pull toes toward shin) and press firmly along the sole from heel toward the ball. Tenderness — especially near the heel — is the plantar fascia.",
+        commonIssues: "Plantar fasciitis — affects 10% of people at some point. Common in runners, people who stand all day, and those with tight calves.",
+      },
+      {
+        name: "Ankle Ligaments",
+        type: "ligament",
+        plain:
+          "Three ligaments on the outer ankle (ATFL, CFL, PTFL) and a stronger complex on the inner ankle (deltoid ligament) hold the ankle bones together and prevent excessive rolling. The ATFL (anterior talofibular ligament) is the most commonly sprained ligament in the body.",
+        relevance:
+          "Most ankle sprains involve the outer ligaments from an inversion injury (ankle rolling outward). Incomplete healing leads to chronic ankle instability — the repeated 'giving way' sensation. Full rehabilitation matters more than people realize.",
+        feel:
+          "Press your finger just in front of and slightly below the outer ankle bone. This spot is the ATFL — the most commonly sprained ligament.",
+        commonIssues: "Lateral ankle sprains (most common sports injury overall), chronic ankle instability, high ankle sprains (syndesmotic — slower to heal).",
+      },
+      {
+        name: "Metatarsals",
+        type: "bone",
+        plain:
+          "Five long bones forming the midfoot, connecting the ankle bones to the base of the toes. They spread the load of body weight across the forefoot and form the ball of the foot.",
+        relevance:
+          "The 5th metatarsal (pinky toe side) is particularly prone to fracture — both from acute inversion injuries (avulsion fracture) and stress fractures from repetitive loading. Morton's neuroma, a thickening of tissue around a nerve between the metatarsals, causes burning or numbness in the toes.",
+        feel:
+          "Press into the ball of your foot, between the bases of your toes. The bones you're pressing along are the metatarsals.",
+        commonIssues: "Metatarsal stress fractures, Jones fracture (5th metatarsal), Morton's neuroma, metatarsalgia.",
+      },
+    ],
+  },
+  {
     slug: "head-neck",
     label: "Head & Neck",
     tagline: "Seven bones supporting twelve pounds — all day, every day.",
