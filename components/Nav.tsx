@@ -36,6 +36,15 @@ export default function Nav() {
 
       <div className="flex items-center gap-8">
         <Link
+          href="/map"
+          className="text-xs uppercase tracking-widest transition-colors duration-200"
+          style={{ color: "#7A6E64", letterSpacing: "0.15em" }}
+          onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#F0E8D8")}
+          onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "#7A6E64")}
+        >
+          Map
+        </Link>
+        <Link
           href="/explore"
           className="text-xs uppercase tracking-widest transition-colors duration-200"
           style={{ color: "#7A6E64", letterSpacing: "0.15em" }}
